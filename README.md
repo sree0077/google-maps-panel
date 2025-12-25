@@ -192,7 +192,7 @@ Each major component has mobile and desktop variants:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/google-maps-panel.git
+git clone https://github.com/sree0077/google-maps-panel.git
 
 # Navigate to project directory
 cd google-maps-panel
