@@ -1,11 +1,8 @@
-# 🗺️ Google Maps Place Details Panel
+# Google Maps Place Details Panel
 
 A pixel-perfect recreation of Google Maps' place details panel, built with modern React. Features a fully responsive design with a mobile-optimized bottom sheet and a desktop side panel, complete with interactive map markers, smooth animations, and comprehensive location information.
 
-![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react)
-![Vite](https://img.shields.io/badge/Vite-7.3.0-646CFF?style=flat-square&logo=vite)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.11-38B2AC?style=flat-square&logo=tailwind-css)
-![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
 
 ## 🌐 Live Demo
 
@@ -13,29 +10,22 @@ A pixel-perfect recreation of Google Maps' place details panel, built with moder
 
 ## ✨ Key Features
 
-### 🎯 Pixel-Perfect Google Maps UI
+###  Pixel-Perfect Google Maps UI
 - Authentic Google Maps styling with Google Sans and Roboto fonts
 - Accurate color schemes, spacing, and visual hierarchy
 - Matching iconography and interactive elements
 
-### 📱 Fully Responsive Design
+###  Fully Responsive Design
 - **Mobile**: Draggable bottom sheet with touch gesture support
 - **Desktop**: Fixed side panel with optimized layout
 - Seamless transition between breakpoints
 
-### 🗺️ Interactive Map Markers
+###  Interactive Map Markers
 - Click markers to switch between locations
 - Visual feedback with pulsing active marker
 - Multiple pre-configured locations (Bali, Paris, Tokyo)
 
-### 📋 Comprehensive Location Data
-- Business hours with open/closed status
-- Photo galleries with hover effects
-- User reviews with ratings and photos
-- Popular times chart visualization
-- Contact information and action buttons
-
-### ⚡ Smooth Animations
+###  Smooth Animations
 - Loading skeleton states
 - Fade transitions between locations
 - Bottom sheet drag interactions
@@ -51,13 +41,9 @@ A pixel-perfect recreation of Google Maps' place details panel, built with moder
 | **Tailwind CSS** | 4.1.11 | Utility-first CSS framework |
 | **React Context** | - | State management for locations |
 
-### Why These Technologies?
 
-- **React 19**: Latest stable release with improved performance and concurrent features
-- **Vite 7**: Lightning-fast HMR (Hot Module Replacement) and optimized production builds
-- **Tailwind CSS 4**: New CSS-first configuration, faster builds, and modern CSS features
 
-## 📁 Project Architecture
+##  Project Architecture
 
 ```
 google-maps-panel/
@@ -113,7 +99,7 @@ google-maps-panel/
 └── package.json                     # Dependencies
 ```
 
-## 🔄 Data Flow & State Management
+##  Data Flow & State Management
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -147,7 +133,7 @@ const handleMarkerClick = (locationId) => {
 ```
 
 
-## 🎨 Responsive Design Strategy
+##  Responsive Design Strategy
 
 ### Mobile-First Approach
 
@@ -181,7 +167,7 @@ Each major component has mobile and desktop variants:
 - `ReviewSummary` → `DesktopReviewSummary` (stacked → side-by-side)
 - `TabNavigation` → `DesktopTabNavigation` (full-width → inline)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -213,7 +199,7 @@ npm run dev
 | `npm run preview` | Preview production build locally |
 | `npm run lint` | Run ESLint for code quality checks |
 
-## 📍 Location Data Structure
+##  Location Data Structure
 
 Each location object contains comprehensive data matching Google Maps:
 
@@ -299,7 +285,7 @@ Each location object contains comprehensive data matching Google Maps:
 - Cleaned up unused code and files
 - Optimized for production build
 
-## 🎯 Design Decisions
+##  Design Decisions
 
 ### Why React Context over Redux/Zustand?
 
@@ -325,7 +311,7 @@ Tailwind CSS 4's new approach:
 - **Modern Features**: Uses CSS variables natively
 - **Future-Proof**: Aligned with CSS evolution
 
-## ✅ Code Quality
+##  Code Quality
 
 ### ESLint Configuration
 
@@ -350,7 +336,7 @@ export default [
 - ✅ Barrel exports for clean imports
 - ✅ Custom hooks for reusable logic
 
-## 📈 Performance Optimizations
+##  Performance Optimizations
 
 1. **Lazy Loading**: Components render only when needed
 2. **Skeleton States**: Perceived performance during loads
@@ -358,26 +344,7 @@ export default [
 4. **Minimal Re-renders**: Context updates are scoped
 5. **CSS-in-JS Free**: Tailwind compiles to static CSS
 
-## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Google Maps for UI/UX inspiration
-- Unsplash for placeholder images
-- React and Vite teams for excellent tooling
-- Tailwind CSS for the utility-first approach
 
 ---
 
